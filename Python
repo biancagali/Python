@@ -1,0 +1,22 @@
+
+'''
+Para descobrir a classe de um objeto usamos type()
+
+Lista: para definir uma lista usamos []
+
+Tupla é uma lista que não pode ser alterada, definimos ela com ()
+
+Dicionário é um conjunto de valores em duplas definimos ele com {item1:item2,item3:item4,...}
+
+Strings são conjunto de caracteres e são definadas com ' ' 
+'''
+
+#Bibliotecas
+import math #se quiser renomear o pacote da para por as 'novoNome'
+print(math.factorial(4))
+
+#ou se quer importar somente uma função específica
+from math import factorial
+print(factorial(4))
+
+https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_r.html#compare-with-r
